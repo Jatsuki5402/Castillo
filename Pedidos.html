@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--=============== Boxicons ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="arch/style.css">
+	<link rel="stylesheet" href="pedidos/styles.css">
+
+
+
+    <!--=============== Fonts ===============-->
+
+
+
+    <title>Castillo</title>
+  </head>
+
+  <!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-castle'></i>
+			<span class="text">Castillo</span>
+		</a>
+
+		<ul class="side-menu top">
+			<li>
+				<a href="index.html">
+				<i class='bx bxs-dashboard' ></i>
+				<span class="text">Inicio</span>
+				</a>
+			</li>
+
+			<li >
+				<a href="Catalogo_D.html">
+				<i class='bx bx-cookie'></i>
+				<span class="text">Dulces</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Catalogo_P.html">
+				<i class='bx bxs-balloon'></i>
+				<span class="text">Piñata</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="#">
+				<i class='bx bxs-party'></i>
+				<span class="text">Articulos De Fiesta</span>
+				</a>
+			</li>
+
+			<li class="active">
+				<a href="Pedidos.html">
+				<i class='bx bxs-message-dots' ></i>
+				<span class="text">Pedidos</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Programadores.html">
+				<i class='bx bxs-group' ></i>
+				<span class="text">Programadores</span>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+				<i class='bx bxs-cog' ></i>
+				<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+				<i class='bx bxs-log-out-circle' ></i>
+				<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+    <!-- CONTENT -->
+	<section id="content">
+    
+    <!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Pedidos</a>
+            
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Buscador...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-heart' ></i>
+				<span class="num"></span>
+			</a>
+            <a href="#" class="notification">
+				<i class='bx bxs-shopping-bags'></i>
+				<span class="num"></span>
+			</a>
+            <a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num"></span>
+			</a>
+			<a href="#" class="profile">
+				<img src="castillo.jpg">
+			</a>            
+		</nav>
+
+	<!-- MAIN -->
+		<main>
+        
+    <!--=============== HOME ===============-->
+    
+    <div class="container">
+        <div class="title">Piñata Personalizada</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Nombre</span>
+                <input type="text" placeholder="Ingresa tu nombre" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Telefono</span>
+                <input type="text" placeholder="Ingresa tu numero" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Medidas</span>
+                <input type="text" placeholder="¿Que tamaño?" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Tematica</span>
+                <input type="text" placeholder="Ingresa la tematica" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Fecha de entrega</span>
+                <input type="text" placeholder="¿Para que fecha?" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Domicilio</span>
+                <input type="text" placeholder="Lugar de entrega" required>
+              </div>
+            </div>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="gender-title">Metodo de Pago</span>
+              <div class="category">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Efectivo</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Transferencia</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Tarjeta</span>
+                </label>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Hacer Pedido">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+        </main>
+	<!-- /MAIN -->
+
+	</section>
+	<!-- /CONTENT -->
+
+ <!--=============== SWIPER JS ===============-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+ <script src="arch/script.js"></script>
+ <script src="food/"></script>
+ <script src="portafolio/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--=============== Boxicons ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="arch/style.css">
+
+
+    <!--=============== Fonts ===============-->
+    <link rel="stylesheet" href="https://cdnjs.clouflare.com/ajax/libs/font-awesonme/5.15.3/css/all.min.css">
+
+
+
+    <title>Castillo</title>
+  </head>
+
+ <!-- SIDEBAR -->
+ <section id="sidebar">
+	<a href="#" class="brand">
+		<i class='bx bxs-castle'></i>
+		<span class="text">Castillo</span>
+	</a>
+
+	<ul class="side-menu top">
+		<li>
+			<a href="index.html">
+			<i class='bx bxs-dashboard' ></i>
+			<span class="text">Inicio</span>
+			</a>
+		</li>
+
+		<li >
+			<a href="Catalogo_D.html">
+			<i class='bx bx-cookie'></i>
+			<span class="text">Dulces</span>
+			</a>
+		</li>
+
+		<li class="active">
+			<a href="Catalogo_P.html">
+			<i class='bx bxs-shopping-bag-alt' ></i>
+			<span class="text">Piñata</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="#">
+			<i class='bx bxs-party'></i>
+			<span class="text">Articulos De Fiesta</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="Pedidos.html">
+			<i class='bx bxs-message-dots' ></i>
+			<span class="text">Pedidos</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="Programadores.html">
+			<i class='bx bxs-group' ></i>
+			<span class="text">Programadores</span>
+			</a>
+		</li>
+	</ul>
+
+	<ul class="side-menu">
+		<li>
+			<a href="#">
+			<i class='bx bxs-cog' ></i>
+			<span class="text">Settings</span>
+			</a>
+		</li>
+		<li>
+			<a href="#" class="logout">
+			<i class='bx bxs-log-out-circle' ></i>
+			<span class="text">Logout</span>
+			</a>
+		</li>
+	</ul>
+</section>
+
+    <!-- CONTENT -->
+	<section id="content">
+    
+    <!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Piñatas</a>
+            
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Buscador...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-heart' ></i>
+				<span class="num"></span>
+			</a>
+            <a href="#" class="notification">
+				<i class='bx bxs-shopping-bags'></i>
+				<span class="num"></span>
+			</a>
+            <a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num"></span>
+			</a>
+			<a href="#" class="profile">
+				<img src="castillo.jpg">
+			</a>            
+		</nav>
+
+	<!-- MAIN -->
+		<main>
+        
+	<!--=============== PRODUCTS ===============-->
+	<section class="products section container">
+        <div class="tab__btns">
+          <spam class="tab__btn active-tab" data-target="#featured">Populares</spam>
+          <span class="tab__btn" data-target="#popular">Numeros</span>
+          <span class="tab__btn" data-target="#new-added">Personajes</span>
+        </div>
+
+        <div class="tab__items">
+          <div class="tab__item active-tab" content id="featured">
+            <div class="products__container grid">
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Bob-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Bob.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">-30%</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Bob Esponja</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+            
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Geko-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Geko.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">-22%</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Geko</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedidos"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Masha-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Masha.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-green">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Masha</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Add To Cart"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Skye-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Skye.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Skye</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Add To Cart"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_toy_story-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata toy story.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 2</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_3_Frozen-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 3 Frozen.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 3</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_4_perros-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 4 perros.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 4 con perritos</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_4_perros2-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 4 perros2.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 4</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              
+              
+
+
+            </div>
+          </div>
+
+          <div class="tab__item " content id="popular">
+            <div class="products__container grid">
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_toy_story-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata toy story.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 2</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_3_Frozen-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 3 Frozen.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 3</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_4_perros-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 4 perros.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 4 con perritos</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_4_perros2-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 4 perros2.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 4</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>              
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_6_Frozen-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata 6 Frozen.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero 6</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_XV-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata XV.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Numero XV</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              
+              
+
+
+
+            </div>
+          </div>
+
+          <div class="tab__item " content id="new-added">
+            <div class="products__container grid">
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Amog_US-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Amog US.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Among Us</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Anna-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Anna.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-green">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Anna</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Aurora-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Aurora.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-orange">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Princesa Aurora</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Blanca-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Blanca.jpg " alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Visualizar"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Agregar a favoritos"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compartir"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-blue">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Blanca Nieves</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Bob-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Bob.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">-30%</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Bob Esponja</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedido"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+            
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Geko-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Geko.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-pink">-22%</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Geko</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Hacer Pedidos"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Masha-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Masha.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   <div class="product__badge light-green">Hot</div>
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Masha</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Add To Cart"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata_Skye-removebg-preview.png" alt="" class="product__img default">
+
+                    <img src="assets/img/Fotos para la página web Arvin/Piñata Skye.jpg" alt="" class="product__img hover">
+                  </a>
+
+                   <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Add To Wishlist"><i class="fi fi-rs-heart"></i></a>
+
+                    <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+
+                   </div>
+                   
+                   
+
+                </div>
+
+                <div class="product__content">
+                  <span class="product__category">Piñata</span>
+                  <a href="details.html"> 
+                    <h3 class="product__title">Skye</h3>
+                  </a>
+                  <div class="product__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+
+                  <div class="product__price flex">
+                    <span class="new__price">$200</span>
+                    <span class="old__price">$300</span>
+                  </div>
+
+                  <a href="Pedidos.html" class="action__btn cart__btn" aria-label="Add To Cart"><i class="fi fi-rs-shopping-bag-add"></i></a>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+        </main>
+	<!-- /MAIN -->
+
+	</section>
+	<!-- /CONTENT -->
+
+ <!--=============== SWIPER JS ===============-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="assets/js/main.js"></script>
+ <script src="arch/script.js"></script>
+
+
+
+</body>
+</html>
